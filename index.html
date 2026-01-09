@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="quizhead">
+        <h1 style="text-align: center;">Quiz Game</h1>
+    </header>
+
+    <section>
+        <div class="box">
+            <ol>
+                <li id="q1">
+                    <div id="question">
+                        <h1>Question</h1>
+                    </div>
+                    <input type="radio" id="a" name="question1" class="answer">
+                    <label for="q1ans1" id="a_text">a</label></br>
+                    <input type="radio" id="b" name="question1" class="answer">
+                    <label for="q1ans2" id="b_text">b</label></br>
+                    <input type="radio" id="c" name="question1" class="answer">
+                    <label for="q1ans3" id="c_text">c</label></br>
+                    <input type="radio" id="d" name="question1" class="answer">
+                    <label for="q1ans4" id="d_text">d</label>
+                </li>
+                <button type="submit" id="sub1">Submit</button><br>
+                <p>
+                    <spam id="result"></spam>
+                </p>
+                <b>
+                    <spam id="answer1"></spam>
+                </b>
+                <p>
+                    <spam id="s1"></spam>
+                </p>
+
+            </ol>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
